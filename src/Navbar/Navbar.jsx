@@ -15,8 +15,6 @@ const Navbar =  ({ theme, toggleTheme }) => {
   </h2>
 </div>
         <div className='nav-menu'>
-          
-
           <Link  activeClass='active' to='hero' spy={true} smooth={true} offset={-100} duration={500} className='nav-menuListItem'>Home</Link>
           <Link  activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className='nav-menuListItem'>About Me</Link>
           <Link activeClass='active' to="mywork" spy={true} smooth={true} offset={-80} duration={500} className='nav-menuListItem'>Projects</Link>

@@ -1,10 +1,6 @@
 
 import React, {useRef} from 'react'
 import './Contact.css'
-import Instagram from '../images/Instagram_icon.png'
-import Facebook from '../images/Facebook_Logo.png'
-import Linkedin from '../images/LinkedIn_icon.png'
-import youtube from '../images/youtube-logo.png'
 import emailjs from '@emailjs/browser';
 emailjs.init("e5GDX6UMaEWyxsaT9");
 
@@ -39,17 +35,6 @@ const Contact = () => {
          <button  type='submit' value="Send" className='submitBtn'>Submit</button>
         
       </form>
-   
-                {/* <div className="contact-details">
-                    <div className="contact-detail">
-                  <img src={mail_icon}alt="" /><p>aashikachaudhary683@gmail.com</p>
-                    </div>
-                      <div className="contact-detail">
-                  <img src={call_icon} alt="" /><p>+977-9806212196</p>
-                    </div>
-                      <div className="contact-detail">
-                  <img src={location_icon}alt="" /><p>Ghorahi</p>
-                    </div> */}
                     
                 </div>
       

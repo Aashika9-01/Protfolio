@@ -64,7 +64,6 @@
     font-size:16px;
 }
 
-/* ========================= */
 
 .work-links{
     display:flex;
@@ -85,11 +84,11 @@
     font-size:15px;
 }
 
+
 .work-links a:hover{
     transform:translateY(-4px);
 }
 
-/* ========================= */
 /* Bottom Contact Box */
 
 .project-contact{
@@ -149,7 +148,6 @@
     box-shadow:0 12px 25px rgba(183,21,255,.35);
 }
 
-/* ========================= */
 /* Tablet */
 
 @media(max-width:1024px){
@@ -174,7 +172,6 @@
 
 }
 
-/* ========================= */
 /* Mobile */
 
 @media(max-width:768px){
@@ -235,7 +232,6 @@
 
 }
 
-/* ========================= */
 /* Small Mobile */
 
 @media(max-width:480px){
