@@ -1,0 +1,171 @@
+.footer{
+    width:100%;
+    padding:15px 8px 8px;
+    text-align:center;
+    background:#fff;
+}
+
+.footer-logo{
+    font-size:48px;
+    font-weight:700;
+    background:linear-gradient(90deg,#B415FF,#FF9800,#00C6FF,#B415FF);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.footer-logo span{
+    font-size:42px;
+}
+
+.footer-text{
+    font-size:20px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.footer-social{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:2px solid #b415ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:#b415ff;
+    font-size:24px;
+    transition:.3s;
+}
+
+.footer-social a:hover{
+    background:linear-gradient(90deg,#B415FF,#FF9800);
+    color:#fff;
+    transform:translateY(-5px);
+}
+
+.footer hr{
+    width:80%;
+    margin:auto;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.footer-copy{
+    margin-top:10px;
+    color:#666;
+    font-size:16px;
+}
+/* tab */
+@media (max-width:1024px){
+
+.footer{
+    padding:25px 15px;
+}
+
+.footer-logo{
+    font-size:42px;
+}
+
+.footer-logo span{
+    font-size:36px;
+}
+
+.footer-text{
+    font-size:18px;
+    max-width:500px;
+}
+
+.footer-social{
+    gap:14px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+    font-size:20px;
+}
+
+.footer-copy{
+    font-size:15px;
+}
+
+}
+/* mobile */
+@media (max-width:768px){
+
+.footer{
+    padding:20px 15px;
+}
+
+.footer-logo{
+    font-size:32px;
+}
+
+.footer-logo span{
+    font-size:28px;
+}
+
+.footer-text{
+    font-size:15px;
+    line-height:1.5;
+    padding:0 10px;
+    margin-bottom:20px;
+}
+
+.footer-social{
+    gap:12px;
+}
+
+.footer-social a{
+    width:40px;
+    height:40px;
+    font-size:18px;
+}
+
+.footer hr{
+    width:90%;
+}
+
+.footer-copy{
+    font-size:13px;
+    padding:0 10px;
+}
+
+}
+/* small mobile */
+@media (max-width:480px){
+
+.footer-logo{
+    font-size:28px;
+}
+
+.footer-logo span{
+    font-size:24px;
+}
+
+.footer-text{
+    font-size:14px;
+}
+
+.footer-social{
+    gap:10px;
+}
+
+.footer-social a{
+    width:36px;
+    height:36px;
+    font-size:16px;
+}
+
+.footer-copy{
+    font-size:12px;
+}
+
+}
