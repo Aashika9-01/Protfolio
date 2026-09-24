@@ -7,7 +7,7 @@ const myworkdata=[
         w_title:"TODo List App",
         w_img:project1,
         github:"https://github.com/Aashika9-01/todolist.git",
-        live:"https://todolistreactapp.netlify.app/"
+        live:"https://aashika-todolist.netlify.app/"
     },
      {
         w_title:"Coffee Landing Page",
