@@ -19,7 +19,8 @@ const Hero = ({ setActivePage }) => {
         </p>
 
         <div className="hero-action">
-          <div 
+          <button 
+            type="button"
             className="hero-connect"
             onClick={() => {
               if (setActivePage) {
@@ -28,11 +29,10 @@ const Hero = ({ setActivePage }) => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           >
-            <span className="anchor-link">
-              View projects
-            </span>
-          </div>
+            View projects
+          </button>
           <button
+            type="button"
             onClick={() => window.open("/aashika.pdf", "_blank")}
             className="hero-resume"
           >
