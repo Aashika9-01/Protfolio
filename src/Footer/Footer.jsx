@@ -2,11 +2,20 @@ import React from "react";
 import "./Footer.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({ setActivePage }) => {
   return (
     <footer id="footer" className="footer">
 
-      <h2 className="footer-logo">
+      <h2 
+        className="footer-logo"
+        onClick={() => {
+          if (setActivePage) {
+            setActivePage('home');
+          }
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+        style={{ cursor: 'pointer' }}
+      >
         Aashika<span>{"</>"}</span>
       </h2>
 

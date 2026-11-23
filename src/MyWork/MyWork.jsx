@@ -3,7 +3,7 @@ import myworkdata from "../assets/myworkdata";
 import "./MyWork.css";
 import { FaGithub, FaPlayCircle, FaEnvelope, FaArrowRight } from "react-icons/fa";
 
-const MyWork = () => {
+const MyWork = ({ setActivePage }) => {
   return (
     <section className="mywork" id="mywork">
 
@@ -63,7 +63,17 @@ const MyWork = () => {
 
         </div>
 
-        <a href="#contact" className="contact-btn">
+        <a 
+          href="#contact" 
+          className="contact-btn"
+          onClick={(e) => {
+            e.preventDefault();
+            if (setActivePage) {
+              setActivePage('contact');
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
           Contact Me <FaArrowRight />
         </a>
 

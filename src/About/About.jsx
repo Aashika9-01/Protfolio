@@ -6,7 +6,7 @@ import {  SiJavascript } from "react-icons/si";
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id="about" className='about'>
         <div className="about-sections">
           <div className="about-left">
             <img src={profile_img} alt="Profile"/>
